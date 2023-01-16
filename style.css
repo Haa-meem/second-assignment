@@ -1,0 +1,160 @@
+/* Fonts style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+.font{
+    font-family: 'Work Sans';
+}
+/* Mobile Responsive Section
+@media only screen and (max-width: 600px){
+    
+}
+*/
+/* Header section */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 30px;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.g3{
+    margin-left: 150px;
+    font-weight: 900;
+
+}
+.menus{
+    display: flex;
+    gap:20px;
+    margin-right: 150px;
+
+}
+.menu{
+    padding-right: 1em;
+}
+/* Header second section */
+.article{
+    width: 551px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.article-title{
+    font-weight: 900;
+    font-size: 30px;
+}
+.article-title,.article-details{
+    text-align: center;
+}
+.navibutton{
+    display: flex;
+    justify-content: center;
+}
+.button,.button2,.button3{
+    padding: 8px 23px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 144, 14, 1);
+    border-color: rgba(255, 144, 14, 1);
+    border-radius: 3px;
+}
+.banner-sec{
+   display: flex;
+   justify-content: center;
+}
+.banner{
+    width: 80%;
+}
+/* Main Section */
+.mainsec{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.imagesnav{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.img{
+    width: 200px;
+height: 200px;
+}
+.maindiv{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: 80px;
+}
+.span1{
+    color: rgba(114, 114, 114, 1);
+}
+.span2{
+    color: rgba(19, 19, 19, 1);
+}
+.span3{
+    color: rgba(255, 144, 14, 1);
+}
+.button2{
+    width: 17%;
+}
+/* Main Section 2 */
+.mainsec2{
+    display: flex;
+
+}
+
+/* I tried to create that small orange vertical line
+.feature{  
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 144, 14, 1);
+}
+*/
+.architect{
+    width: 78%;
+}
+.navsec{
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.navsec2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.secdiv{
+    border: 30px;
+    border-color: rgba(255, 144, 14, 1);
+    
+}
+.divimg{
+    padding-left: 40px;
+}
+.text{
+    text-align: center;
+}
+.number{
+    font-size: 25px;
+}
+/* Footer Section */
+.footsec{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footimg{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.copyright{
+    background-color: rgba(255, 244, 231, 1);
+    width:1000px;
+    height: 60px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
